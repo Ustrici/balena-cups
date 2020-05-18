@@ -9,6 +9,7 @@ RUN install_packages \
     libnss-mdns \
     foomatic-db-compressed-ppds \
     printer-driver-brlaser \
+    printer-driver-gutenprint \
     hplip
 
 # Add script
