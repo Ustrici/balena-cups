@@ -7,10 +7,7 @@ RUN install_packages \
     avahi-daemon \
     dbus \
     libnss-mdns \
-    foomatic-db-compressed-ppds \
-    printer-driver-brlaser \
-    printer-driver-gutenprint \
-    hplip
+    printer-driver-gutenprint
 
 # Add script
 COPY run.sh /
