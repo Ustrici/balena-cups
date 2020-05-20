@@ -1,4 +1,4 @@
-FROM balenalib/%%BALENA_MACHINE_NAME%%:build
+FROM balenalib/%%BALENA_MACHINE_NAME%%:run
 
 # Install the packages we need. Avahi will be included
 RUN install_packages \
